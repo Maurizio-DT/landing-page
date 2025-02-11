@@ -46,6 +46,16 @@ button,
     background-color: #3882F6;
 }
 
+.h1-container button {
+    color: #E5E7EB;
+    border-style: none;
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
 .blue-container button {
     color: #E5E7EB;
     border: 1px solid #E5E7EB;
@@ -68,3 +78,45 @@ blockquote {
     color: #1F2937;
 }
 
+.header-container a,
+.header-container a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* FLEXBOX */
+.header-container {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+
+.first-section-container {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 60px 0 90px 0;
+    column-gap: 70px;
+}
+
+.h1-container,
+.first-section figure {
+    flex: 1;
+}
+
+.first-section img {
+    width: 100%;
+}
