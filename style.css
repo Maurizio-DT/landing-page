@@ -65,7 +65,15 @@ h2 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 40px 0;
 }
+
+figcaption {
+    text-align: center;
+}
+
 
 .section-three {
     background-color: #E5E7EB;
@@ -82,6 +90,15 @@ blockquote {
 .header-container a:visited {
     color: white;
     text-decoration: none;
+}
+
+.images-container figure {
+    width: 150px;
+}
+
+.images-container img {
+    width: 100%;
+    border-radius: 15px;
 }
 
 /* FLEXBOX */
@@ -120,3 +137,19 @@ nav ul li {
 .first-section img {
     width: 100%;
 }
+
+.second-section-container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.images-container {
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+}
+
+
