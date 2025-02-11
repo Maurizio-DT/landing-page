@@ -1,0 +1,70 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+/* FONT & COLORS */
+body {
+    font-family: Roboto, sans-serif;
+}
+
+header,
+.first-section,
+footer {
+    background-color: #1F2937;
+}
+
+h1, 
+.logo-container {
+    color: #F9FAF8;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.logo-container {
+    font-size: 24px;
+}
+
+.h1-container > p,
+nav > ul > li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button,
+.blue-container {
+    background-color: #3882F6;
+}
+
+.blue-container button {
+    color: #E5E7EB;
+    border: 1px solid #E5E7EB;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
