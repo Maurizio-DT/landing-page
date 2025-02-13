@@ -93,13 +93,22 @@ blockquote {
     text-decoration: none;
 }
 
+.header-container a:hover,
+.header-container a:focus {
+    text-decoration: underline;
+}
+
 .images-container figure {
-    width: 150px;
+    max-width: 200px;
 }
 
 .images-container img {
     width: 100%;
     border-radius: 15px;
+}
+
+button {
+    cursor: pointer;
 }
 
 /* FLEXBOX */
