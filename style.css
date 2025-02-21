@@ -21,18 +21,15 @@ footer {
     background-color: #1F2937;
 }
 
-h1, 
-.logo-container {
-    color: #F9FAF8;
-}
-
 h1 {
     font-size: 48px;
     font-weight: 900;
+    color: #F9FAF8;
 }
 
-.logo-container {
-    font-size: 24px;
+.logo-container img {
+    min-width: 100px;
+    min-height: 50px;
 }
 
 .h1-container > p,
@@ -111,12 +108,19 @@ button {
     cursor: pointer;
 }
 
+header {
+    position: sticky;
+    top: 0;
+}
+
+
 /* FLEXBOX */
 .header-container {
     display: flex;
     width: 60%;
     margin: 0 auto;
     justify-content: space-between;
+    align-items: center;
     padding: 20px 0;
 }
 
