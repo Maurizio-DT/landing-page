@@ -16,9 +16,13 @@ body {
 }
 
 header,
-.first-section,
 footer {
-    background-color: #1F2937;
+    background-color: #8C675A;
+}
+
+.first-section,
+.section-three {
+    background-color: #BFA89C;
 }
 
 h1 {
@@ -35,12 +39,12 @@ h1 {
 .h1-container > p,
 nav > ul > li {
     font-size: 18px;
-    color: #E5E7EB;
+    color: white;
 }
 
 button,
 .blue-container {
-    background-color: #3882F6;
+    background-color: #8C675A;
 }
 
 .first-section-container img {
@@ -65,16 +69,21 @@ button,
 
 h2 {
     font-size: 36px;
-    color: #1F2937;
+    color: #8C675A;
     font-weight: 900;
     max-width: fit-content;
     margin: 0 auto;
     padding: 40px 0;
 }
 
+h4 {
+    color: #8C675A;
+}
+
 figcaption {
     text-align: justify;
     font-weight: 300;
+    color: #AB8B76;
 }
 
 .images-container h4 {
@@ -82,15 +91,15 @@ figcaption {
     text-align: center;
 }
 
-.section-three {
-    background-color: #E5E7EB;
-}
-
 blockquote {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    color: #1F2937;
+    color: white;
+}
+
+.quote-container p {
+    color: white;
 }
 
 .header-container a,
@@ -151,7 +160,7 @@ nav ul li {
     width: 60%;
     justify-content: center;
     margin: 0 auto;
-    padding: 60px 0 90px 0;
+    padding: 90px 0 90px 0;
     column-gap: 70px;
 }
 
