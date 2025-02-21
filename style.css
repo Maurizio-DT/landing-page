@@ -43,6 +43,10 @@ button,
     background-color: #3882F6;
 }
 
+.first-section-container img {
+    border-radius: 15px;
+}
+
 .h1-container button,
 .blue-container button {
     color: #E5E7EB;
@@ -69,9 +73,14 @@ h2 {
 }
 
 figcaption {
-    text-align: center;
+    text-align: justify;
+    font-weight: 300;
 }
 
+.images-container h4 {
+    margin-bottom: 5px;
+    text-align: center;
+}
 
 .section-three {
     background-color: #E5E7EB;
@@ -106,12 +115,15 @@ blockquote {
 
 button {
     cursor: pointer;
+    max-width: max-content;
 }
 
 header {
     position: sticky;
     top: 0;
 }
+
+
 
 
 /* FLEXBOX */
@@ -146,6 +158,12 @@ nav ul li {
 .h1-container,
 .first-section figure {
     flex: 1;
+}
+
+.h1-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
 }
 
 .first-section img {
